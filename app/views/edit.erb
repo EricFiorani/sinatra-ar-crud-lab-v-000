@@ -4,10 +4,14 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
+  <body>    
     <form action="/posts/<%= @post.id %>" method="post">
+
+      Post Name: <input type="text" value="<% @post.name" name="name"
+      
       <input id="hidden" type="hidden" name="_method" value="patch">
       <input type="text" ...>
+      
     </form>
   </body>
 </html>
