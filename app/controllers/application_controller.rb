@@ -21,6 +21,10 @@ class ApplicationController < Sinatra::Base
     redirects to '/posts'
   end
 
+  get '/posts' do
+    erb :index
+  end
+
   get '/posts/:id' do
     @post = params[:posts/:id]
 
