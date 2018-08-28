@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <form action="/posts/<%=@post.id%>" method="patch">
+    <form action="/posts/<%=@post.id%>" method="post">
 
       Post Name: <input type="text" value="<% @post.name %>" name="name">
       Post Content: <input type="text" value="<% @post.content %>" name="content">
