@@ -6,8 +6,8 @@
   </head>
   <body>
 
-
-
+    Post Name: <%= @post.name %>
+    Post Content: <%= @post.content %>
 
     <!-- delete button -- >
     <form method="post" action="/posts/<%= @post.id %>/delete">
